@@ -11,39 +11,46 @@
 
 <body>
   <main>
-    <nav class="sidebar">
-      <div class="logo">
-        <a href="./index.html">
-          <ion-icon name="diamond-outline"></ion-icon>
-          Sonic&Tails
-        </a>
-      </div>
+    <header>
+      <nav class="sidebar">
+        <div class="logo">
+          <a href="./index.html">
+            <ion-icon name="diamond-outline"></ion-icon>
+            Sonic&Tails
+          </a>
+          <ion-icon class="menu-btn close" name="menu-outline"></ion-icon>
+        </div>
 
-      <ul class="nav-list">
-        <li class="nav-list__item"><a href="#" class="nav-list__link">
-            <ion-icon name="home-outline"></ion-icon><span class="nav-list__link-name">Home</span>
-          </a></li>
-        <li class="nav-list__item"><a href="#" class="nav-list__link">
-            <ion-icon name="person-circle-outline"></ion-icon><span class="nav-list__link-name">Profile</span>
-          </a></li>
-        <li class="nav-list__item"><a href="#" class="nav-list__link">
-            <ion-icon name="mail-outline"></ion-icon><span class="nav-list__link-name">Messages</span>
-          </a></li>
-        <li class="nav-list__item"><a href="#" class="nav-list__link">
-            <ion-icon name="desktop-outline"></ion-icon><span class="nav-list__link-name">My Dashboard</span>
-          </a></li>
-        <li class="nav-list__item"><a href="#" class="nav-list__link">
-            <ion-icon name="help-outline"></ion-icon><span class="nav-list__link-name">Help</span>
-          </a></li>
-        <li class="nav-list__item"><a href="#" class="nav-list__link">
-            <ion-icon name="settings-outline"></ion-icon><span class="nav-list__link-name">Settings</span>
-          </a></li>
-        <li class="nav-list__item"><a href="#" class="nav-list__link">
-            <ion-icon name="log-out-outline"></ion-icon><span class="nav-list__link-name">Sign Out</span>
-          </a></li>
-      </ul>
-    </nav>
+        <ul class="nav-list">
+          <li class="nav-list__item"><a href="#" class="nav-list__link">
+              <ion-icon name="home-outline"></ion-icon><span class="nav-list__link-name">Home</span>
+            </a></li>
+          <li class="nav-list__item"><a href="#" class="nav-list__link">
+              <ion-icon name="person-circle-outline"></ion-icon><span class="nav-list__link-name">Profile</span>
+            </a></li>
+          <li class="nav-list__item"><a href="#" class="nav-list__link">
+              <ion-icon name="mail-outline"></ion-icon><span class="nav-list__link-name">Messages</span>
+            </a></li>
+          <li class="nav-list__item"><a href="#" class="nav-list__link">
+              <ion-icon name="desktop-outline"></ion-icon><span class="nav-list__link-name">My Dashboard</span>
+            </a></li>
+          <li class="nav-list__item"><a href="#" class="nav-list__link">
+              <ion-icon name="help-outline"></ion-icon><span class="nav-list__link-name">Help</span>
+            </a></li>
+          <li class="nav-list__item"><a href="#" class="nav-list__link">
+              <ion-icon name="settings-outline"></ion-icon><span class="nav-list__link-name">Settings</span>
+            </a></li>
+          <li class="nav-list__item"><a href="#" class="nav-list__link">
+              <ion-icon name="log-out-outline"></ion-icon><span class="nav-list__link-name">Sign Out</span>
+            </a></li>
+        </ul>
+        <div class="sidebar__overlay"></div>
+      </nav>
+    </header>
 
+    <section class="top-nav">
+      <ion-icon class="menu-btn open" name="menu-outline"></ion-icon>
+    </section>
     <section class="sonic">
       <h1>Best Sonic The Hedgehog Movie Quote</h1>
       <p>“I'm Sonic. A little ball of super energy in an extremely handsome package.”</p>
